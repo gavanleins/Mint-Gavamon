@@ -3,7 +3,7 @@
 # 🌿 Mint-Gavamon
 
 A customized Linux Mint Cinnamon desktop that I made because I got bored
-
+![Main Bar](Gavamon-Images/Polybar.png)
 ---
 
 ## 📦 Installation
@@ -15,6 +15,32 @@ chmod +x ./launch.sh scripts/*.sh
 ./launch.sh
 ```
 ⚠️ Make sure all scripts in scripts/ are executable.
+---
+
+##  Features
+Custom Application Taskbar
+
+
+![Apps](Gavamon-Images/Applications.png)
+
+
+Polywins Task Management
+
+
+![Polywins](Gavamon-Images/Polywins.png)
+
+
+Live System Information
+
+
+![Sysinfo](Gavamon-Images/SystemInfo.png)
+
+
+ChatGPT Sidebar
+
+
+![ChatGPT](Gavamon-Images/ChatGPT-Sidebar.png)
+
 ---
 
 🧰 Dependencies
@@ -50,7 +76,9 @@ https://github.com/uniquepointer/polywins
 
 🧠 ChatGPT Desktop App
 https://github.com/lencx/ChatGPT
+
 ---
+
 💡 Notes
 
 This config is designed for Linux Mint Cinnamon, but can be adapted for any GTK-based DE with X11.
