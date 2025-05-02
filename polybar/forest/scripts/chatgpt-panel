@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+app_path="/usr/bin/chat-gpt"
+panel_width=600
+
+
+# Get primary monitor position and height
+eval "$(xrandr | awk '/ primary/{split($4,res,"+"); split(res[1], wh, "x"); print "X=" res[2] "\nY=" res[3] "\nH=" wh[2]}')"
+
+# Launch ChatGPT if not running
+pgrep -f "chat-gpt" || "$app_path" &
+
+# Wait up to 10 seconds for the window to appear
+for i in {1..50}; do
+    win_id=$(xdotool search --onlyvisible --class chat-gpt | head -n 1)
+    if [ -n "$win_id" ]; then break; fi
+    sleep 1.5
+done
+
+# If window is found, reposition it
+if [ -n "$win_id" ]; then
+    wmctrl -ir "$win_id" -e "0,$X,$Y,$panel_width,$H"
+else
+    echo "❌ ChatGPT window not found after timeout."
+fi
