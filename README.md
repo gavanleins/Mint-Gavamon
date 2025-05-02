@@ -15,7 +15,7 @@ chmod +x ./launch.sh scripts/*.sh
 ./launch.sh
 ```
 ⚠️ Make sure all scripts in scripts/ are executable.
-
+---
 
 🧰 Dependencies
 
@@ -39,7 +39,7 @@ Install the ChatGPT desktop client:
 wget https://github.com/lencx/ChatGPT/releases/download/v1.1.0/ChatGPT_1.1.0_linux_x86_64.deb
 sudo dpkg -i ChatGPT_1.1.0_linux_x86_64.deb
 ```
-
+---
 🥸 Credits
 
 🌲 Polybar Forest Theme
@@ -50,7 +50,7 @@ https://github.com/uniquepointer/polywins
 
 🧠 ChatGPT Desktop App
 https://github.com/lencx/ChatGPT
-
+---
 💡 Notes
 
 This config is designed for Linux Mint Cinnamon, but can be adapted for any GTK-based DE with X11.
