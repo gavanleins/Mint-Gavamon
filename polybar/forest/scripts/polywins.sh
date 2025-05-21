@@ -160,6 +160,7 @@ generate_window_list() {
 			"steam")            icon="" ;;
 			"vlc")              icon="嗢" ;;
 			"obs")              icon="" ;;
+			"Joplin")              icon="" ;;
 			"Gnome-terminal"|"gnome-terminal") icon="" ;;
 			"Thunar"|"nemo"|"Nemo")    icon="" ;;
 			"chromium")         icon="" ;;
