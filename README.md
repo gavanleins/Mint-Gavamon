@@ -47,7 +47,7 @@ ChatGPT Sidebar
 
 Install all necessary packages:
 ```
-sudo apt install polybar rofi xdotool wmctrl x11-utils playerctl pavucontrol feh curl jq
+sudo apt install polybar rofi xdotool wmctrl x11-utils playerctl pavucontrol feh curl jq thunar
 ```
 Fonts (required for icons)
 
