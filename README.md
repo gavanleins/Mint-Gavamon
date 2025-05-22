@@ -1,6 +1,6 @@
 
 
-# 🌿 Mint-Gavamon
+# 🌿 Mint-Gavamon (WIP)
 
 A customized Linux Mint Cinnamon desktop that I made because I got bored
 ![Main Bar](Gavamon-Images/Polybar.png)
